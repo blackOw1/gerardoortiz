@@ -1,0 +1,46 @@
+:root {
+  --clr-primary: #f7f7ff;
+  --clr-secondary: #031926;
+  --clr-secondary-rgb: 3, 25, 38;
+  --clr-accent: #1098f7;
+  --clr-accent-rgb: 16, 152, 247;
+  --clr-white: #ffffff;
+  --clr-white-rgb: 255, 255, 255;
+
+  --clr-project-one: #396afc;
+  --clr-project-two: #ff4081;
+  --clr-project-three: #de2f2f;
+
+  --clr-carousel-tab: rgba(var(--clr-secondary-rgb), 12%);
+  --clr-carousel-tab-selected: var(--clr-accent);
+
+  --clr-form-placeholder: rgba(var(--clr-white-rgb), 72%);
+  --clr-form-border: rgba(var(--clr-white-rgb), 24%);
+  --clr-form-border-focus: rgba(var(--clr-white-rgb), 72%);
+
+  --clr-button-primary-text: var(--clr-white);
+  --clr-button-secondary-border: rgba(var(--clr-secondary-rgb), 12%);
+  --clr-button-project-primary-bg: var(--clr-white-rgb);
+  --clr-button-project-secondary-text: var(--clr-white);
+  --clr-button-project-secondary-border: rgba(var(--clr-white-rgb), 72%);
+  --clr-button-contact-primary-text: var(--clr-white);
+
+  --clr-toast-bg: var(--clr-primary);
+  --clr-toast-text: var(--clr-secondary);
+  --clr-toast-border: rgba(var(--clr-secondary-rgb), 12%);
+  --clr-toast-shadow: rgba(var(--clr-secondary-rgb), 24%);
+
+  --clr-text: rgba(var(--clr-secondary-rgb), 72%);
+
+  --fw-regular: 400;
+  --fw-medium: 500;
+  --fw-bold: 700;
+
+  --z-header: 100;
+
+  --media-breakpoint-sm: 480px;
+  --media-breakpoint-md: 768px;
+  --media-breakpoint-lg: 992px;
+  --media-breakpoint-xl: 1200px;
+  --media-breakpoint-xxl: 1400px;
+}

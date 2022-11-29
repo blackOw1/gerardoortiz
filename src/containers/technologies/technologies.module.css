@@ -1,0 +1,8 @@
+.stack {
+  composes: container from 'App.css';
+  transition: opacity 750ms;
+}
+
+.stackContainer {
+  padding: 120px 0;
+}

@@ -1,0 +1,27 @@
+.header {
+  composes: container from 'App.css';
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 56px;
+}
+
+.headerContainer {
+  background-color: var(--clr-primary);
+  border-bottom: 1px solid rgba(var(--clr-secondary-rgb), 8%);
+  position: absolute;
+  width: 100%;
+  transform: translate3d(0, 0, 0);
+  top: -57px;
+  z-index: 2;
+}
+
+.headerFixed {
+  top: -57px;
+  position: fixed;
+  transition: transform 250ms;
+}
+
+.headerVisible {
+  transform: translate3d(0, 100%, 0);
+}

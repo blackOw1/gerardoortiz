@@ -1,0 +1,8 @@
+.footer {
+  composes: container from 'App.css';
+  padding: 40px 20px;
+}
+
+.footerContainer {
+  background-color: rgba(var(--clr-secondary-rgb), 96%);
+}

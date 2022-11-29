@@ -1,0 +1,15 @@
+.projects {
+  composes: container from 'App.css';
+  transition: opacity 750ms;
+}
+
+.projectsContainer {
+  overflow: hidden;
+  padding: 60px 0;
+}
+
+@media only screen and (min-width: 992px) {
+  .projectsContainer {
+    padding: 120px 0;
+  }
+}

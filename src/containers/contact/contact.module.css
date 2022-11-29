@@ -1,0 +1,23 @@
+.contact {
+  composes: container from 'App.css';
+  padding-top: 60px;
+  padding-bottom: 60px;
+  transition: opacity 750ms;
+}
+
+.contactContainer {
+  background-color: var(--clr-secondary);
+  /* padding-top: 120px; */
+  margin-top: 60px;
+}
+
+@media only screen and (min-width: 992px) {
+  .contact {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .contactContainer {
+    margin-top: 120px;
+  }
+}
