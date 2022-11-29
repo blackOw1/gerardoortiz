@@ -1,0 +1,13 @@
+.footerSocialIcons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+
+.footerSocialIconsItem {
+  transition: opacity 250ms;
+}
+
+.footerSocialIconsItem:hover {
+  opacity: 0.8;
+}
