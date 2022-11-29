@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>G's Brand Logo</title>
+    <defs>
+        <linearGradient x1="50%" y1="0.631436435%" x2="50%" y2="100%" id="linearGradient-1">
+            <stop stop-color="#4481EB" offset="0%"></stop>
+            <stop stop-color="#2979FF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Assets" transform="translate(-2856.000000, -670.000000)">
+            <g id="Group-Copy-2" transform="translate(2856.000000, 670.000000)">
+                <path d="M23.9997,12.0775 C23.958,18.6649 18.5972,24 12,24 C5.37703,24 0,18.623 0,12 L24,12 L23.9997,12.0775 Z" id="Path" fill="#ECEFF1"></path>
+                <path d="M12,0 L12,24 C5.37703,24 0,18.623 0,12 C0,5.37703 5.37703,0 12,0 Z" id="Path" fill="url(#linearGradient-1)"></path>
+            </g>
+        </g>
+    </g>
+</svg>
