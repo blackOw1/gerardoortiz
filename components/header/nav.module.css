@@ -1,0 +1,30 @@
+.nav {
+  display: none;
+}
+
+.navList {
+  display: flex;
+  gap: 32px;
+}
+
+.navListItemLink {
+  font-size: 14px;
+  display: block;
+  color: var(--clr-secondary);
+  opacity: 0.72;
+  transition: opacity 250ms;
+}
+
+.navListItemLink:hover {
+  opacity: 1;
+}
+
+/* .navListFocused {
+  opacity: 0.48;
+} */
+
+@media only screen and (min-width: 768px) {
+  .nav {
+    display: block;
+  }
+}

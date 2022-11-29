@@ -1,0 +1,18 @@
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.fIcon {
+  composes: icon;
+  stroke: currentColor;
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+
+.faIcon {
+  composes: icon;
+  fill: #6f7a81;
+}

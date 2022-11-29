@@ -1,0 +1,10 @@
+.footerHighlight {
+  color: rgba(var(--clr-white-rgb), 72%);
+}
+
+.footerNotice {
+  font-size: 12px;
+  text-align: center;
+  color: rgba(var(--clr-white-rgb), 40%);
+  margin-top: 12px;
+}

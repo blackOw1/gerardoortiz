@@ -1,0 +1,19 @@
+.aboutHeading {
+  font-size: 32px;
+  margin-bottom: 32px;
+  text-align: center;
+  color: var(--clr-secondary);
+}
+
+@media only screen and (min-width: 992px) {
+  .aboutHeading {
+    font-size: 40px;
+    margin-bottom: 72px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .aboutHeading {
+    font-size: 48px;
+  }
+}

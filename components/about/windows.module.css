@@ -1,0 +1,20 @@
+.aboutWindows {
+  position: relative;
+  min-height: 375px;
+  margin-bottom: 32px;
+}
+
+@media only screen and (min-width: 768px) {
+  .aboutWindows {
+    width: 570px;
+    transform: translateX(-50%);
+    left: 50%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .aboutWindows {
+    transform: translateX(0);
+    left: 0;
+  }
+}
