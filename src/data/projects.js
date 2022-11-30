@@ -9,7 +9,7 @@ const projects = [
     technologies: ['HTML', 'CSS', 'JavaScript', 'Express', 'Parcel', 'Newscatcher API'],
     liveSite: 'https://nues.devgerardoortiz.com',
     repoSite: 'https://github.com/blackOw1/nues',
-    index: 'one',
+    index: 'two',
     image: imageNues,
   },
   {
@@ -26,7 +26,7 @@ const projects = [
     ],
     liveSite: 'https://university-finder-us.cyclic.app/',
     repoSite: 'https://github.com/blackOw1/university-finder',
-    index: 'two',
+    index: 'one',
     image: imageUniversityFinder,
   },
   {
