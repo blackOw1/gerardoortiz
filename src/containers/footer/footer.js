@@ -1,5 +1,5 @@
 import styles from './footer.module.css';
-import { SocialsList, Copyright, ReCAPTCHABranding } from 'components/footer';
+import { SocialsList, Copyright } from 'components/footer';
 
 const Footer = () => {
   return (
@@ -7,7 +7,6 @@ const Footer = () => {
       <footer className={styles.footer}>
         <SocialsList />
         <Copyright />
-        <ReCAPTCHABranding />
       </footer>
     </div>
   );
