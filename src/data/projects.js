@@ -1,8 +1,27 @@
 import imageUniversityFinder from 'assets/mockups/university-finder-mockup.svg';
 import imageNues from 'assets/mockups/nues-mockup.svg';
 import imageSushitama from 'assets/mockups/sushitama-mockup.svg';
+import imagePokemonApi from 'assets/mockups/pokemon-api-mockup.png';
 
 const projects = [
+  {
+    name: 'Pokemon API',
+    summary:
+      'Pokemon API is an API that contains data about Pokemon, moves, TMs, and HMs from generation 1. The backend was created by me using Node.js. The frontend was created using React. All routes are handled by React Router. Light mode and dark mode have been implemented. Full documentation can be found via the website.',
+    technologies: [
+      'React',
+      'React Router',
+      'React Redux',
+      'CSS Modules',
+      'Node.js',
+      'Express',
+      'MongoDB',
+    ],
+    liveSite: 'https://pokemon-api.devgerardoortiz.com',
+    repoSite: 'https://github.com/blackOw1/pokemon-api',
+    index: 'four',
+    image: imagePokemonApi,
+  },
   {
     name: 'Nues',
     summary: `Nues is a news application that displays a list of news from various sources by utilizing the Newscatcher API. I have implemented code to only refresh the content every 30 minutes to reduce the number of API calls. The app also features a search page to search for more news.`,

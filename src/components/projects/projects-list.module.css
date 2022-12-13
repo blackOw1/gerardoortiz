@@ -26,7 +26,8 @@
 
 .projectOne,
 .projectTwo,
-.projectThree {
+.projectThree,
+.projectFour {
   padding: 32px 32px 240px;
 }
 
@@ -39,6 +40,10 @@
 
 .projectThreeHeading {
   color: var(--clr-project-three);
+}
+
+.projectFourHeading {
+  color: var(--clr-project-four);
 }
 
 @media only screen and (min-width: 992px) {

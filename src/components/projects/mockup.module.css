@@ -11,10 +11,20 @@
   transform: translateY(-40px);
 }
 
+.projectsListItemImageFour {
+  transform: translateY(32px);
+  left: 28px;
+  width: 364px;
+}
+
 @media only screen and (min-width: 480px) {
   .projectsListItemImage {
     left: unset;
     right: -8%;
+  }
+
+  .projectsListItemImageFour {
+    transform: translateY(12px) translateX(-20px);
   }
 }
 
@@ -26,6 +36,11 @@
 
   .projectsListItemImageTwo {
     transform: translateY(-96px);
+  }
+
+  .projectsListItemImageFour {
+    width: 450px;
+    transform: translateY(-24px) translateX(-88px);
   }
 }
 
@@ -46,5 +61,10 @@
 
   .projectsListItemImageThree {
     right: -24%;
+  }
+
+  .projectsListItemImageFour {
+    width: 520px;
+    transform: translateY(-48px) translateX(-88px);
   }
 }

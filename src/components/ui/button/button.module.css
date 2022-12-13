@@ -75,6 +75,14 @@
   color: var(--clr-project-three);
 }
 
+.buttonProjectFourPrimary {
+  background-color: var(--clr-project-four);
+}
+
+.buttonProjectFourSecondary {
+  color: var(--clr-project-four);
+}
+
 .buttonContactPrimary {
   background-color: var(--clr-accent);
   color: var(--clr-button-contact-primary-text);

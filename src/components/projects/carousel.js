@@ -30,6 +30,7 @@ const Carousel = () => {
       <div className={setClassName(0)} data-id="0"></div>
       <div className={setClassName(1)} data-id="1"></div>
       <div className={setClassName(2)} data-id="2"></div>
+      <div className={setClassName(3)} data-id="3"></div>
     </div>
   );
 };

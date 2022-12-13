@@ -10,6 +10,7 @@
   --clr-project-one: #396afc;
   --clr-project-two: #ff4081;
   --clr-project-three: #de2f2f;
+  --clr-project-four: #111111;
 
   --clr-carousel-tab: rgba(var(--clr-secondary-rgb), 12%);
   --clr-carousel-tab-selected: var(--clr-accent);
