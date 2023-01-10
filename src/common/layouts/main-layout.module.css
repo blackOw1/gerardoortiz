@@ -1,0 +1,17 @@
+.main {
+  padding: 0 20px;
+  transition: transform 750ms ease, opacity 750ms ease;
+}
+
+@media only screen and (min-width: 768px) {
+  .main {
+    padding: 0 40px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .main {
+    max-width: calc(1200px - 40px);
+    margin: 0 auto;
+  }
+}

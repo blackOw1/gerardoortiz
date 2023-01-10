@@ -1,0 +1,70 @@
+.contact {
+  width: 100%;
+  text-decoration: none;
+  border-radius: 8px;
+}
+
+.contactContainer {
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 80px;
+  margin: 0 auto;
+}
+
+.contact button {
+  display: flex;
+  gap: 12px;
+  align-items: center;
+  justify-content: center;
+  width: inherit;
+}
+
+.contact button:hover {
+  background-color: var(--clr-gray-300);
+}
+
+.contact p {
+  color: var(--clr-gray-900);
+  font-size: 24px;
+  font-weight: 800;
+}
+
+.hand {
+  background-image: url('common/assets/emojis/hand-contact.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 24px;
+  height: 24px;
+  display: block;
+}
+
+@media only screen and (min-width: 768px) {
+  .contactContainer {
+    padding-top: 80px;
+    padding-bottom: 160px;
+  }
+
+  .contact button {
+    padding: 32px;
+  }
+
+  .contact p {
+    font-size: 32px;
+  }
+
+  .hand {
+    width: 32px;
+    height: 32px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .contact p {
+    font-size: 40px;
+  }
+
+  .hand {
+    width: 40px;
+    height: 40px;
+  }
+}

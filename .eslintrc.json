@@ -1,0 +1,45 @@
+{
+  "extends": [
+    "eslint:recommended",
+    "plugin:import/recommended",
+    "plugin:jsx-a11y/recommended",
+    "plugin:react/recommended",
+    "plugin:react/jsx-runtime",
+    "plugin:react-hooks/recommended",
+    "prettier"
+  ],
+  "parserOptions": {
+    "ecmaVersion": 11,
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "sourceType": "module"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    },
+    "import/resolver": {
+      "node": {
+        "paths": ["src"],
+        "extensions": [".js", ".jsx"]
+      }
+    }
+  },
+  "rules": {
+    "no-undef": "warn",
+    "no-console": "warn",
+    "no-unused-vars": "warn",
+    "prefer-destructuring": ["warn", { "object": true, "array": true }],
+    "prefer-spread": "warn",
+    "react/jsx-props-no-spreading": "warn",
+    "react/no-array-index-key": "warn",
+    "react/button-has-type": "off",
+    "react/prop-types": "off"
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es2020": true
+  }
+}

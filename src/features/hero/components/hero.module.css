@@ -1,0 +1,41 @@
+.hand {
+  background-image: url('common/assets/emojis/hand-wave.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  margin-bottom: 8px;
+}
+
+.hero h1 {
+  margin-bottom: 16px;
+}
+
+.hero p {
+  margin-bottom: 16px;
+}
+
+.buttonsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.link button {
+  width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+  .buttonsContainer {
+    flex-direction: row;
+  }
+
+  .hero h1 {
+    margin-bottom: 24px;
+  }
+
+  .greeting p {
+    margin-bottom: 32px;
+  }
+}

@@ -1,0 +1,42 @@
+.icon {
+  width: 20px;
+  height: 20px;
+  stroke: var(--clr-gray-700);
+  stroke-width: 2;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  fill: none;
+}
+
+.iconContainer:hover > .icon {
+  stroke: var(--clr-gray-900);
+}
+
+.iconMenu {
+  width: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 4px 0;
+}
+
+.iconMenuContainer {
+  cursor: pointer;
+  padding: 4px;
+  border-radius: 8px;
+}
+
+.iconMenuContainer::before,
+.iconMenuContainer::after {
+  content: '';
+  display: block;
+  width: inherit;
+  height: 2px;
+  background-color: #000000;
+}
+
+@media only screen and (min-width: 768px) {
+  .iconMenuContainer {
+    display: none;
+  }
+}

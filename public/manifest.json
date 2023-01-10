@@ -1,0 +1,25 @@
+{
+  "short_name": "gerardoortiz",
+  "name": "Gerardo Ortiz",
+  "description": "Portfolio website",
+  "icons": [
+    {
+      "src": "favicon.ico",
+      "type": "image/x-icon",
+      "sizes": "16x16 24x24 32x32 48x48 64x64 96x96 128x128"
+    },
+    {
+      "src": "logo-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "logo-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#fdfdfd"
+}

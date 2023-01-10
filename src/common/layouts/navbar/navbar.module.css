@@ -1,0 +1,34 @@
+.navContainer {
+  width: 100%;
+  padding: 16px 0;
+  background-color: var(--clr-primary);
+  background-color: rgba(251, 251, 251, 80%);
+  border-bottom: 1px solid transparent;
+
+  position: fixed;
+  top: 0;
+  backdrop-filter: saturate(172%) blur(6px);
+  -webkit-backdrop-filter: saturate(172%) blur(6px);
+  z-index: var(--z-header);
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  position: relative;
+}
+
+@media only screen and (min-width: 768px) {
+  .nav {
+    padding: 0 40px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .nav {
+    max-width: calc(1200px - 40px);
+    margin: 0 auto;
+  }
+}

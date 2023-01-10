@@ -1,0 +1,36 @@
+.button {
+  border: none;
+  border-radius: 8px;
+  padding: 16px 24px;
+  cursor: pointer;
+}
+
+.buttonPrimary {
+  background-color: var(--clr-accent);
+  color: #fff;
+}
+
+.buttonPrimary:hover {
+  background-color: #0159de;
+}
+
+.buttonSecondary {
+  background-color: transparent;
+  border: 1px solid var(--clr-gray-300);
+  color: var(--clr-gray-900);
+}
+
+.buttonSecondary:hover {
+  background-color: var(--clr-gray-300);
+}
+
+.buttonOutline {
+  background-color: transparent;
+  border: 1px solid var(--clr-gray-300);
+}
+
+.buttonCircle {
+  background-color: var(--clr-gray-200);
+  border-radius: 50%;
+  padding: 12px;
+}
